@@ -1,0 +1,10 @@
+body {
+    background-color: darkslategrey;   
+}
+h1 {
+    color: #b79cdb;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 75px;
+}
