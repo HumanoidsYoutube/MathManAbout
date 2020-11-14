@@ -1,5 +1,6 @@
 body {
     background-color: darkslategrey;   
+    transition: 0.25s;
 }
 h1 {
     color: #b79cdb;
@@ -7,4 +8,13 @@ h1 {
     font-weight: bolder;
     text-align: center;
     font-size: 75px;
+    transition: 0.5s;
+}
+h2 {
+    color: lightgray;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    transition: 0.75s;
 }
