@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title id = 'title'>MathMan</title>
-<link rel = 'stylesheet' href = 'css/launch.css' type = 'text/css'>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<link rel="icon" href="media/images/favicon/favicon 1.svg">
-<noscript>
- <p class = 'add'>For functionality of this site it is necessary to enable JavaScript.
- Here are the <a href="https://www.enable-javascript.com/" class = 'enable'>
- instructions how to enable JavaScript in your web browser</a>.</p>
-</noscript>
+    <noscript>
+            <meta http-equiv="refresh" content="0; URL=js/enable" />
+    </noscript>
+    <title id = 'title'>MathMan</title>
+    <link rel = 'stylesheet' href = 'css/launch.css' type = 'text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="media/images/favicon/favicon 1.svg">
 </head>
 <body onload = 'nav("#h", "home")'>
 <div class="topnav">
   <strong>
   <a href="javascript:void(0);" onclick = 'nav("#h", "home")' id = 'homelink'>Home</a>
   <a href="javascript:void(0);" onclick = 'nav("#n", "news")' id = 'newslink'>News</a>
-  <a href="javascript:void(0);" onclick = 'nav("#a", "about")' id = 'aboutlink'>About</a>
-  <a href="javascript:void(0);" onclick = 'nav("#htu", "howtouse")' id = 'htulink'>How to Use</a>
-  <a href="javascript:void(0);" onclick = 'nav("#c", "contact")' id = 'contactlink'>Contact</a>
+  <a href="javascript:void(0);" onclick = 'nav("coming-soon", "about")' id = 'aboutlink'>About</a>
+  <a href="javascript:void(0);" onclick = 'nav("coming-soon", "howtouse")' id = 'htulink'>How to Use</a>
+  <a href="javascript:void(0);" onclick = 'nav("coming-soon", "contact")' id = 'contactlink'>Contact</a>
   </strong>
 </div>
 <div id = 'h' class = 'h' width = '100%' height = '100%'>
@@ -45,5 +43,5 @@
 <p id = 'news'></p><!-- @MrBeanGuy did this -->
 </div>
 </body>
-<script type = 'text/javascript' src = 'is/launch.js'></script>
+<script type = 'text/javascript' src = 'js/launch.js'></script>
 </html>

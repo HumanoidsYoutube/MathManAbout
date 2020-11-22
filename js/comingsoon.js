@@ -9,5 +9,5 @@ function back() {
     link.innerHTML = '';
     document.getElementById("b").style.backgroundColor = 'white';
     location.replace("#h1")
-    setTimeout(function(){window.history.back()}, 1000)
+    setTimeout(function() {window.history.back()}, 1000)
 }
