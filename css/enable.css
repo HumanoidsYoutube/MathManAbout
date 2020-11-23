@@ -1,0 +1,19 @@
+.topbar {
+    background-color: #506b6a;
+    width: 75%;
+}
+.topbar a {
+    padding: 17px 8px;
+    background: none;
+    border-style: none solid none solid;
+    border-width: 0px 4px 0px 4px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+}
+.topbar a:hover {
+    border-width: 0px;
+    background-color: #b5dfff;
+    color: #474747;
+}
